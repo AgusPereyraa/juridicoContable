@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     width: 60%;
+
     text-shadow: 1px 1px 5px #625555;
 }
 
@@ -40,4 +41,5 @@
     box-shadow: 1px 1px 10px #625555;
     font-weight: bolder;
     cursor: pointer;
+
 }
