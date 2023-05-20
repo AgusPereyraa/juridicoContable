@@ -1,10 +1,10 @@
 import React from 'react'
-import Hero from '../Hero/Hero'
+import Main from '../Main/Main'
 
 export default function Index() {
     return (
       <>
-          <Hero />
+          <Main />
       </>
     )
   }

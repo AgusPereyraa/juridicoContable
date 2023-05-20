@@ -12,12 +12,10 @@ return (
     
     <div className={`nav_items ${isOpen && "open"}`}>
       <div className='porfile'>
-      
-      {/* <Image src={logoUser} alt='' /> */}
-
+    
         <div className='porfile-text'>
         <p>Estudio Juridico & Contable</p>
-        <p>V & P</p> {/* centrar en la barra de navegacion */}
+        <p>V & P</p>
         </div>
 
       </div>

@@ -1,10 +1,14 @@
-.hero{
-    margin: 0 5.688rem;
+.main{
     min-height: 100vh;
+    background: url(../../Img/background-home.png);
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
 @media (max-width: 1023px){
-    .hero{
+    .main{
         /* background-image: url(../../images/bg-mobile.png); */
         background-size: cover;
         background-repeat: no-repeat;

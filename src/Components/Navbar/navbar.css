@@ -1,9 +1,8 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 10px 0px 0px 0px;
+    padding: 30px;
     height: 10vh;
-    font-family: 'Montserrat', sans-serif;
     align-items: center;
 }
 
@@ -12,14 +11,16 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: 5px;
+    border: 1px solid #ab5301da;
+    border-radius: 2px;
+    padding: 10px;
 }
 
-/* .nav_logo {
-    font-weight: bold;
-    font-size: 20px;
-    margin: 15px;
-    color: #fff;
-} */
+.title-nav:hover {
+    background-color: #ab5301da;
+    color: white;
+    transition: all ease .5s;
+}
 
 .nav_items a {
     margin: 15px;
@@ -42,24 +43,12 @@ nav {
     border-radius: 5px;
 }
 
-/* .nav_items span {
-    background-color: white;
-    padding: 10px 10rem;
-    border-radius: 10px;
-} */
-
-
 .nav_items {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
-
-/* .logo img {
-    width: 50px;
-} */
-
 
 .porfile {
     display: flex;
@@ -71,6 +60,7 @@ nav {
 .porfile-text {
     text-align: center;
     color: #fff;
+    text-shadow: 3px 3px 8px black;
 }
 
 .porfile-text p {
@@ -86,13 +76,13 @@ nav {
     position: fixed;
     top: 0px;
     left: 0;
-    background: #ab5301af;
+    background: #ab5301da;
     display: flex;
     flex-direction: column;
     transform: translateY(-100%);
-    transition: 0.3s ease all;
+    transition: 0.5s ease all;
     height: 100vh;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .nav_items.open {
@@ -127,7 +117,7 @@ nav {
 .nav_toggle.open>span {
     transform: rotate(45deg) translate(0px, 0px);
     margin-top: -8px;
-    margin-left: 295px;
+    margin-left: 370px;
     background: #fff;
     z-index: 10000;
     position: fixed;
