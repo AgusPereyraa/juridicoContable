@@ -1,8 +1,10 @@
+
 .home {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
+
     text-shadow: 1px 1px 5px #625555;
 }
 
@@ -38,4 +40,6 @@
     transition: all ease .3s;
     box-shadow: 1px 1px 10px #625555;
     font-weight: bolder;
+    cursor: pointer;
+
 }

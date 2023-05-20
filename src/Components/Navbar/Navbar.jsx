@@ -32,12 +32,13 @@ return (
       <span></span>
     </div>
     
-  </div>
-  
-  <div className='title-nav'>
+    <div className='title-nav'>
       <p>Estudio Juridico & Contable</p> 
       <p>V & P</p>
   </div>
+  
+  </div>
+
  </nav>
 )
 
