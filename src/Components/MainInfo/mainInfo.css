@@ -85,7 +85,6 @@
 }
 
 .desc:hover {
-    cursor: pointer;
     transform: scale(1.03);
     transition: all ease .3s;
     background-color: #ab530180;
