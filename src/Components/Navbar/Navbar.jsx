@@ -14,7 +14,7 @@ return (
       <div className='porfile'>
     
         <div className='porfile-text'>
-        <p>Estudio Juridico & Contable</p>
+        <p>Estudio Juridico Contable</p>
         <p>V & P</p>
         </div>
 
@@ -33,7 +33,7 @@ return (
     </div>
     
     <div className='title-nav'>
-      <p>Estudio Juridico & Contable</p> 
+      <p>Estudio Juridico Contable</p> 
       <p>V & P</p>
   </div>
   
