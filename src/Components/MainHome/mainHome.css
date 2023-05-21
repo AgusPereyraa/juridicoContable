@@ -11,12 +11,14 @@
     font-size: 55px;
     line-height: 4rem;
     text-align: center;
+    padding: 5px;
 }
 
 .homeDescription {
     margin-top: 10px;
     text-align: center;
     font-size: 26px;
+    padding: 5px;
 }
 
 .homeButton {
