@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../Navbar/Navbar'
 import MainHome from '../MainHome/MainHome'
 import MainInfo from '../MainInfo/MainInfo'
+import MainTeam from '../MainTeam/MainTeam'
 import './main.css'
 
 export default function Main() {
@@ -10,6 +11,7 @@ export default function Main() {
         <NavBar />
         <MainHome />
         <MainInfo />
+        <MainTeam />
       </div>
     )
   }
