@@ -1,0 +1,55 @@
+  /* .Footer-contain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 50px 0%;
+  background-color: #62555500;
+} */
+
+#Footer-contain {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 6rem;
+    background: url(../../Img/backgroundInfo.png);
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3px;
+    padding: 50px 0%;
+}
+
+.Footer-links a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 1px;
+}
+
+.Footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Footer-links h4{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+
+.redes-sociales-footer{
+    padding: 10px;
+    gap: 1rem;
+    display: flex;
+    font-size: 20px;
+}
+
+
