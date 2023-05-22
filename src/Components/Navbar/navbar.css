@@ -18,6 +18,7 @@ nav {
     border: 1px solid #ab5301da;
     border-radius: 2px;
     padding: 10px;
+    font-weight: bold;
 }
 
 .title-nav:hover {

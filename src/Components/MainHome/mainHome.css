@@ -5,6 +5,7 @@
     flex-direction: column;
     width: 60%;
     text-shadow: 1px 1px 5px #625555;
+    height: 90vh;
 }
 
 .homeTitle {
@@ -15,7 +16,6 @@
 }
 
 .homeDescription {
-    margin-top: 10px;
     text-align: center;
     font-size: 26px;
     padding: 5px;

@@ -8,6 +8,7 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    border-top: 5px solid #ab530180;
 }
 
 .mainInfo {
@@ -88,7 +89,6 @@
     transform: scale(1.03);
     transition: all ease .3s;
     background-color: #ab530180;
-    /* color: white; */
     border: none;
     border-radius: 3px;
 }
