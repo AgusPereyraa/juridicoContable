@@ -1,5 +1,4 @@
 
-
 #Footer-contain {
     display: flex;
     align-content: center;
@@ -15,8 +14,11 @@
 }
 
 .footerLinks a{
-    margin-top: 3px;
-    padding: 50px 0%;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 1px;
 }
 
 .footerLinks {
