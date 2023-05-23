@@ -75,3 +75,22 @@
     padding: 1rem;
     text-align: center;
 }
+
+@media (max-width: 320px) {
+    #mainTeam {
+        width: 10px;
+    }
+
+    .teamMain {
+        width: 10px;
+    }
+
+    .teamAdmin {
+        width: 1px;
+    }
+
+    .teamTitle {
+        width: 1px;
+        margin-left: 0px;
+    }
+}

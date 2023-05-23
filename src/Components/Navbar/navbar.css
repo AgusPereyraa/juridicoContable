@@ -258,6 +258,11 @@ nav {
         height: 10vh;
         padding: 1rem;
     }
+
+    .nav_items {
+        height: 100vh;
+    }
+    
     .nav_toggle.open>span {
         transform: rotate(45deg) translate(0px, 0px);
         margin-top: -8px;
