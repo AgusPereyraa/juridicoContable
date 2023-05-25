@@ -61,4 +61,8 @@
     .homeDescription {
         font-size: 10px;
     }
+
+    .homeButton {
+        width: 100%
+    }
 }
