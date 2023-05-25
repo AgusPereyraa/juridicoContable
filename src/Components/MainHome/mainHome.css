@@ -43,3 +43,22 @@
     font-weight: bolder;
     cursor: pointer;
 }
+
+@media (max-width: 320px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .homeTitle {
+        display: flex;
+        font-size: 10px;
+    }
+
+    .homeDescription {
+        font-size: 10px;
+    }
+}

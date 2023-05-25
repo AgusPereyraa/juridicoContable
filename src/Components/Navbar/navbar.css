@@ -72,8 +72,6 @@ nav {
 }
 
 .porfile-text p {
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     margin-top: 15px;
@@ -260,12 +258,23 @@ nav {
     }
 
     .nav_items {
-        height: 100vh;
+        height: 100%;
+    }
+
+    .nav_items a {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
     }
     
     .nav_toggle.open>span {
         transform: rotate(45deg) translate(0px, 0px);
         margin-top: -8px;
         margin-left: 75%;
+    }
+
+    .porfile-text p {
+        font-size: 32px;
+        margin-top: 4rem;
     }
 }
