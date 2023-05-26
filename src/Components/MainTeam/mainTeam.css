@@ -125,11 +125,38 @@
 }
 
 @media (max-width: 375px) {
+    .teamMain {
+        height: 95vh;
+    }
     .teamAdmin {
         flex-direction: column;
+        width: 70vw;
+        gap: 0;
+        margin-top: 0;
     }
 
     .teamTitle {
+        text-align: center;
         margin-left: 0;
+        font-size: 35px;
+        margin-top: 5px;
+    }
+
+    .admin{
+        height: 25vh;
+    }
+
+    .adminTitle {
+        font-size: 30px;
+        font-weight: 400;
+        text-shadow: 0 0;
+    }
+
+    .adminDesc {
+        display: none;
+    }
+
+    .teamDesc {
+        display: none;
     }
 }
