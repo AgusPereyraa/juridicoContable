@@ -77,20 +77,43 @@
 }
 
 @media (max-width: 320px) {
-    #mainTeam {
-        width: 10px;
-    }
 
     .teamMain {
-        width: 10px;
+        width: 100%;
+        height: 98%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
     }
 
     .teamAdmin {
-        width: 1px;
+        width: 87%;
+        flex-direction: column;
     }
 
     .teamTitle {
-        width: 1px;
+        width: 80vw;
         margin-left: 0px;
+    }
+
+    .teamText {
+        text-align: center;
+    }
+
+    .adminDesc {
+        display: none;
+    }
+
+    .teamDesc {
+        display: none;
+    }
+
+    .admin {
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
     }
 }
