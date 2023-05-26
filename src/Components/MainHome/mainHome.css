@@ -44,7 +44,31 @@
     cursor: pointer;
 }
 
-@media (max-width: 375px) {
+@media (min-width: 376px) and (max-width: 426px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 90vh;
+        gap: 5rem;
+    }
+
+    .homeDescription {
+        display: none;
+    }
+
+    .homeButton {
+        margin-top: 0;
+        margin-left: 0;
+        width: 60%;
+        font-size: 30px;
+        height: 8vh;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
     .home {
         display: flex;
         flex-direction: column;
