@@ -44,7 +44,7 @@
     cursor: pointer;
 }
 
-@media (min-width: 376px) and (max-width: 426px) {
+@media (min-width: 377px) and (max-width: 426px) {
     .home {
         display: flex;
         flex-direction: column;
@@ -68,7 +68,7 @@
     }
 }
 
-@media (min-width: 321px) and (max-width: 375px) {
+@media (min-width: 321px) and (max-width: 376px) {
     .home {
         display: flex;
         flex-direction: column;

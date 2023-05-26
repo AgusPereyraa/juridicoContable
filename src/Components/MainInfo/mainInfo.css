@@ -103,6 +103,98 @@
     text-shadow: 1px 1px 5px #625555;
 }
 
+@media (min-width: 377px) and (max-width: 426px) {
+    .mainInfo {
+        height: 95vh;
+    }
+
+    .desc {
+        width: 65vw;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title img {
+        height: 50px;
+    }
+
+    .title h4 {
+        font-size: 30px;
+        font-weight: 400;
+        text-shadow: 0 0;
+    }
+
+    .infoDesc {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .descInfo-1 {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .descInfo-2 {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .descTitle {
+        display: none;
+    }
+
+    .descInfo {
+        display: none;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 376px) {
+    .mainInfo {
+        height: 95vh;
+    }
+
+    .desc {
+        width: 65vw;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title img {
+        height: 50px;
+    }
+
+    .title h4 {
+        font-size: 30px;
+        font-weight: 400;
+        text-shadow: 0 0;
+    }
+
+    .descInfo-1 {
+        flex-direction: column;
+    }
+
+    .descInfo-2 {
+        flex-direction: column;
+    }
+
+    .descTitle {
+        display: none;
+    }
+
+    .descInfo {
+        display: none;
+    }
+}
+
 @media (max-width: 320px) {
     .mainInfo {
         height: 95vh;
@@ -148,47 +240,5 @@
 
     .cardTitle {
         text-align: center;
-    }
-}
-
-@media (max-width: 375px) {
-    .mainInfo {
-        height: 95vh;
-    }
-
-    .desc {
-        width: 65vw;
-    }
-
-    .title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .title img {
-        height: 50px;
-    }
-
-    .title h4 {
-        font-size: 30px;
-        font-weight: 400;
-        text-shadow: 0 0;
-    }
-
-    .descInfo-1 {
-        flex-direction: column;
-    }
-
-    .descInfo-2 {
-        flex-direction: column;
-    }
-
-    .descTitle {
-        display: none;
-    }
-
-    .descInfo {
-        display: none;
     }
 }

@@ -76,6 +76,81 @@
     text-align: center;
 }
 
+@media (min-width: 377px) and (max-width: 426px) {
+    .teamMain {
+        height: 95vh;
+    }
+
+    .teamTitle {
+        margin: 0;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .teamAdmin {
+        flex-direction: column;
+        margin-top: 0;
+        gap: .3rem;
+    }
+
+    .admin {
+        width: 70vw;
+        gap: .3rem;
+    }
+
+    .adminTitle {
+        font-size: 30px;
+        font-weight: 400;
+        text-shadow: 0 0;
+    }
+
+    .adminDesc {
+        display: none;
+    }
+
+    .teamDesc {
+        display: none;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 376px) {
+    .teamMain {
+        height: 95vh;
+    }
+
+    .teamAdmin {
+        flex-direction: column;
+        width: 70vw;
+        gap: 0;
+        margin-top: 0;
+    }
+
+    .teamTitle {
+        text-align: center;
+        margin-left: 0;
+        font-size: 35px;
+        margin-top: 5px;
+    }
+
+    .admin{
+        height: 25vh;
+    }
+
+    .adminTitle {
+        font-size: 30px;
+        font-weight: 400;
+        text-shadow: 0 0;
+    }
+
+    .adminDesc {
+        display: none;
+    }
+
+    .teamDesc {
+        display: none;
+    }
+}
+
 @media (max-width: 320px) {
 
     .teamMain {
@@ -121,43 +196,5 @@
         font-size: 25px;
         font-weight: 400;
         text-shadow: 0 0 0;
-    }
-}
-
-@media (min-width: 321px) and (max-width: 375px) {
-    .teamMain {
-        height: 95vh;
-    }
-
-    .teamAdmin {
-        flex-direction: column;
-        width: 70vw;
-        gap: 0;
-        margin-top: 0;
-    }
-
-    .teamTitle {
-        text-align: center;
-        margin-left: 0;
-        font-size: 35px;
-        margin-top: 5px;
-    }
-
-    .admin{
-        height: 25vh;
-    }
-
-    .adminTitle {
-        font-size: 30px;
-        font-weight: 400;
-        text-shadow: 0 0;
-    }
-
-    .adminDesc {
-        display: none;
-    }
-
-    .teamDesc {
-        display: none;
     }
 }
