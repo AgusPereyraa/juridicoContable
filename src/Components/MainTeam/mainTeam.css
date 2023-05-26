@@ -123,3 +123,13 @@
         text-shadow: 0 0 0;
     }
 }
+
+@media (max-width: 375px) {
+    .teamAdmin {
+        flex-direction: column;
+    }
+
+    .teamTitle {
+        margin-left: 0;
+    }
+}
