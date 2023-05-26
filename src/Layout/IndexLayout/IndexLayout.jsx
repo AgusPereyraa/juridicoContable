@@ -1,10 +1,10 @@
 import React from 'react'
-import Index from '../../Components/Index/Index'
+import Main from '../../Components/Main/Main'
 
 export default function IndexLayout() {
   return (
     <>
-    <Index />
+    <Main />
     </>
   )
 }

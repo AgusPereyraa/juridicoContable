@@ -23,9 +23,9 @@ export default function MainInfo() {
             <div className='desc'>
               <div className='title'>
                 <img src={dCivil} alt=""/>
-                <h4>Derecho Civil</h4>
+                <h4 className='cardTitle'>Derecho Civil</h4>
               </div>
-              <p>Accidentes de transito. Contratos y alquileres, desalojos. Prescripción adquisitiva corta y larga. Daños y Perjuicios. Amparos.</p>
+              <p className='descInfo'>Accidentes de transito. Contratos y alquileres, desalojos. Prescripción adquisitiva corta y larga. Daños y Perjuicios. Amparos.</p>
             </div>
 
             <div className='desc'>
@@ -33,7 +33,7 @@ export default function MainInfo() {
                 <img src={dLaboral} alt="" />
                 <h4>Derecho Laboral</h4>
               </div>
-              <p>No cometas errores, nosotros te asesoramos inscribiendo a tu empleado como corresponde. Accidentes de Riesgo de Trabajo. Despidos.</p>
+              <p className='descInfo'>No cometas errores, nosotros te asesoramos inscribiendo a tu empleado como corresponde. Accidentes de Riesgo de Trabajo. Despidos.</p>
             </div>
 
           </div>
@@ -45,7 +45,7 @@ export default function MainInfo() {
                 <img src={dTributario} alt="" />
                 <h4>Derecho Tributario</h4>
               </div>
-              <p>Presentaciones administrativas ante los entes recaudadores. Te asesoramos para evitar que llegues a embargos.</p>
+              <p className='descInfo'>Presentaciones administrativas ante los entes recaudadores. Te asesoramos para evitar que llegues a embargos.</p>
             </div>
 
             <div className='desc'>
@@ -53,7 +53,7 @@ export default function MainInfo() {
                 <img src={dFamiliar} alt="" />
                 <h4>Derecho de Familia</h4>
               </div>
-              <p>Divorcios, con acuerdo y sin acuerdo. Regimén de comunicación, alimentos, convenios reguladores, permisos de viajes y sucesiones.</p>
+              <p className='descInfo'>Divorcios, con acuerdo y sin acuerdo. Regimén de comunicación, alimentos, convenios reguladores, permisos de viajes y sucesiones.</p>
             </div>
 
           </div>

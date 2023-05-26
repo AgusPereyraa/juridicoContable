@@ -102,3 +102,51 @@
 .title h4 {
     text-shadow: 1px 1px 5px #625555;
 }
+
+@media (max-width: 320px) {
+    .mainInfo {
+        height: 95vh;
+    }
+
+    .descTitle {
+        display: none;
+    }
+    
+    .infoTitle {
+        font-size: 20px;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .descInfo {
+        display: none;
+    }
+
+    .infoDesc {
+        height: 70vh;
+        padding: 1px;
+        margin-top: 20px;
+    }
+
+    .descInfo-1 {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .descInfo-2 {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .title {
+        flex-direction: column;
+    }
+
+    .title img {
+        height: 55px;
+    }
+
+    .cardTitle {
+        text-align: center;
+    }
+}

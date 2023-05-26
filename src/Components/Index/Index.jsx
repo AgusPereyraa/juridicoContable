@@ -1,10 +1,14 @@
 import React from 'react'
-import Main from '../Main/Main'
+import MainHome from '../MainHome/MainHome'
+import MainInfo from '../MainInfo/MainInfo'
+import MainTeam from '../MainTeam/MainTeam'
 
 export default function Index() {
     return (
-      <>
-          <Main />
-      </>
+      <div className='main2'>
+      <MainHome classname='home' />
+      <MainInfo classname='info' />
+      <MainTeam classname='team' />
+      </div>
     )
   }
