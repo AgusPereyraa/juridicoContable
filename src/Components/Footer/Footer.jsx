@@ -10,25 +10,30 @@ export default function Footer() {
         <div id='Footer-contain'>
             <div className='footerLinks'>
                 <h4 className='footerTitle'>Links</h4>
-                <a>Inicio</a>
-                <a>Servicios</a>
-                <a>Sobre Nosotros</a>
-                <a>Honorarios</a>
-                <a>Contacto</a>
+                <a className='linksFooter'>Inicio</a>
+                <a className='linksFooter'>Servicios</a>
+                <a className='linksFooter'>Sobre Nosotros</a>
+                <a className='linksFooter'>Honorarios</a>
+                <a className='linksFooter'>Contacto</a>
             </div>
 
             <div className='footerLinks'>
                 <h4 className='footerTitle'>Contacto</h4>
                 <div className='footerPhone'>
-                    <img src={Phone} alt='logo-phone'/>011 - 2252 - 3564
+                    <img src={Phone} alt='logo-phone'/>
+                    <p>011 - 2252 - 3564</p>
                 </div>
 
                 <div className='footerEmail'>
-                    <img src={Mail} alt='logo-mail'/>estudiojuridicocontablevyp@gmail.com
+                    <img src={Mail} alt='logo-mail'/>
+                    <p>estudiojuridicocontablevyp
+                        @gmail.com
+                    </p>
                 </div>
 
                 <div className='footerLocation'>
-                    <img src={Location} alt='logo-location' />Belgrano, Buenos Aires, Argentina
+                    <img src={Location} alt='logo-location' />
+                    <p>Belgrano, Buenos Aires, Argentina</p>
                 </div>
 
             </div>

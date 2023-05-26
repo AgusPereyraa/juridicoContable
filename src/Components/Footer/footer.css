@@ -44,6 +44,63 @@
 
 @media (max-width: 320px) {
     #Footer-contain {
-        width: 1px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
     }
+
+    .footerLinks {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+        margin: 20px;
+    }
+
+    .footerTitle {
+        font-size: 30px;
+    }
+
+    .footerLinks img {
+        height: 50px;
+    }
+
+    .footerLinks p {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .footerLinks a {
+        font-size: 25px;
+    }
+
+    .footerPhone {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerEmail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerLocation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* .footerPhone img {
+        height: 50px;
+    } */
 }
