@@ -50,19 +50,23 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0;
+        padding: .1rem;
+        width: 100vw;
+        height: 100vh;
     }
 
     .homeTitle {
         display: flex;
-        font-size: 10px;
+        font-size: 40px;
+        margin-bottom: 1rem;
     }
 
     .homeDescription {
-        font-size: 10px;
+        font-size: 25px;
     }
 
     .homeButton {
-        width: 100%
+        width: 85vw;
+        margin-left: 0;
     }
 }
