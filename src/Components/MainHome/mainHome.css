@@ -44,7 +44,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1026px) and (max-width: 1440px) {
     .home {
         gap: 3rem;
         justify-content: center;
@@ -142,6 +142,7 @@
         align-items: center;
         padding: .1rem;
         width: 100vw;
+        gap: 5rem;
     }
 
     .homeTitle {
@@ -151,7 +152,7 @@
     }
 
     .homeDescription {
-        font-size: 25px;
+        display: none;
     }
 
     .homeButton {
