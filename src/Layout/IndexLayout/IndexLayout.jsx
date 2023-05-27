@@ -1,10 +1,10 @@
 import React from 'react'
-import Main from '../../Components/Main/Main'
+import { Outlet } from 'react-router-dom'
 
 export default function IndexLayout() {
   return (
     <>
-    <Main />
+      <Outlet/>
     </>
   )
 }
