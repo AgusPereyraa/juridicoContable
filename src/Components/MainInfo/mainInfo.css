@@ -103,6 +103,40 @@
     text-shadow: 1px 1px 5px #625555;
 }
 
+@media (min-width: 427px) and (max-width: 769px) {
+    .mainInfo {
+        height: 88vh;
+    }
+
+    .desc {
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        gap: .3rem;
+    }
+
+    .infoTitle {
+        font-size: 35px;
+        width: 60vw;
+    }
+
+    .descTitle {
+        font-size: 20px;
+    }
+
+    .title img {
+        height: 35px;
+    }
+
+    .title h4 {
+        font-size: 25px;
+    }
+
+    .descInfo {
+        font-size: 18px;
+    }
+}
+
 @media (min-width: 377px) and (max-width: 426px) {
     .mainInfo {
         height: 95vh;
