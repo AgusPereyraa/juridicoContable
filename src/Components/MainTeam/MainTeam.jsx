@@ -1,5 +1,8 @@
 import React from 'react'
 import Admin from '../../Img/profile-circle.svg'
+import H3 from '../H3/H3'
+import H4 from '../H4/H4'
+import P from '../P/P'
 import './mainTeam.css'
 
 export default function MainTeam() {
@@ -9,32 +12,34 @@ export default function MainTeam() {
       <div className='teamMain'>
 
         <div className='teamText'>
-          <h3 className='teamTitle'>Nuestro Equipo</h3>
+          <H3 className='teamTitle' text='Nuestro Equipo' />
         </div>
 
         <div className='teamAdmin'>
 
           <div className='admin'>
             <img src={Admin} alt="" />
-            <h4 className='adminTitle'>Agustina Vicente</h4>
-            <p className='adminDesc'>Contadora, recibida de la USAL, con experiencia en impuestos e industria fintech</p>
+            <H4 className='adminTitle' text='Agustina Vicente' />
+            <P className='adminDesc' text='Contadora, recibida de la USAL, con experiencia en impuestos e industria fintech' />
           </div>
 
           <div className='admin'>
             <img src={Admin} alt="" />
-            <h4 className='adminTitle'>Sebastian Pereyra</h4>
-            <p className='adminDesc'>Procurador y abogado, recibido de la UBA, con especialización en el area de Derecho Tributario.</p>
+            <H4 className='adminTitle' text='Sebastian Pereyra' />
+            <P className='adminDesc' text='Procurador y abogado, recibido de la UBA, con especialización en el area de Derecho Tributario.' />
           </div>
 
           <div className='admin'>
             <img src={Admin} alt="" />
-            <h4 className='adminTitle'>Nadia Pereyra</h4>
-            <p className='adminDesc'>Abogada, recibida de la UBA, con especialización y experiencia en el area de Derecho Empresarial.</p>
+            <H4 className='adminTitle' text='Nadia Pereyra' />
+            <P className='adminDesc' text='Abogada, recibida de la UBA, con especialización y experiencia en el area de Derecho Empresarial.' />
           </div>
 
         </div>
 
-        <p className='teamDesc'>En nuestra consultoría jurídica, nos esforzamos por brindar un servicio excepcional y una atención al cliente de primer nivel. Creemos en la importancia de la transparencia y la comunicación abierta, por lo que nos aseguramos de trabajar en estrecha colaboración con nuestros clientes para comprender sus necesidades y objetivos específicos.</p>
+        <div className='teamDesc'>
+          <P text='En nuestra consultoría jurídica, nos esforzamos por brindar un servicio excepcional y una atención al cliente de primer nivel. Creemos en la importancia de la transparencia y la comunicación abierta, por lo que nos aseguramos de trabajar en estrecha colaboración con nuestros clientes para comprender sus necesidades y objetivos específicos.' />
+        </div>
 
       </div>
 

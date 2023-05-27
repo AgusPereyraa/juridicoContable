@@ -13,20 +13,26 @@
     border-top: 5px solid #ab530180;
 }
 
-.footerLinks a{
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    font-size: 15px;
-    padding: 1px;
-}
-
 .footerLinks {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     gap: 10px;
+}
+
+.footerLinks a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 1px;
+    height: 4vh;
+}
+
+.footerLinks a:hover {
+    border-bottom: 1px solid orange;
 }
 
 .footerTitle{

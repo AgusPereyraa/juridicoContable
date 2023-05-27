@@ -21,10 +21,10 @@
     box-shadow: 2px 2px 10px #625555;
 }
 
-.teamTitle {
+.teamText h3 {
     font-size: 30px;
     line-height: 50px;
-    margin-left: 450px;
+    text-align: center;
     text-shadow: 1px 1px 5px #625555;
 }
 
@@ -68,7 +68,7 @@
     color: white;
 }
 
-.teamDesc {
+.teamDesc p {
     margin-top: 1rem;
     font-size: 20px;
     text-shadow: 1px 1px 5px #625555;
@@ -97,7 +97,7 @@
         font-size: 20px;
     }
 
-    .teamDesc {
+    .teamDesc p {
         font-size: 25px;
     }
 }
@@ -107,7 +107,7 @@
         height: 88vh;
     }
 
-    .teamTitle {
+    .teamText h3 {
         margin: 0;
         text-align: center;
         font-size: 35px;
@@ -129,7 +129,7 @@
         font-size: 20px;
     }
 
-    .teamDesc {
+    .teamDesc p {
         font-size: 23px;
     }
 }
@@ -139,7 +139,7 @@
         height: 90vh;
     }
 
-    .teamTitle {
+    .teamText h3 {
         margin: 0;
         text-align: center;
         font-size: 35px;
@@ -164,7 +164,7 @@
         font-size: 20px;
     }
 
-    .teamDesc {
+    .teamDesc p {
         display: none;
     }
 }
@@ -174,7 +174,7 @@
         height: 95vh;
     }
 
-    .teamTitle {
+    .teamText h3 {
         margin: 0;
         text-align: center;
         font-size: 35px;
@@ -191,17 +191,17 @@
         gap: .3rem;
     }
 
-    .adminTitle {
+    .admin h4 {
         font-size: 30px;
         font-weight: 400;
         text-shadow: 0 0;
     }
 
-    .adminDesc {
+    .admin p {
         display: none;
     }
 
-    .teamDesc {
+    .teamDesc p {
         display: none;
     }
 }
@@ -218,7 +218,7 @@
         margin-top: 0;
     }
 
-    .teamTitle {
+    .teamText h3 {
         text-align: center;
         margin-left: 0;
         font-size: 35px;
@@ -229,17 +229,17 @@
         height: 25vh;
     }
 
-    .adminTitle {
+    .admin h4 {
         font-size: 30px;
         font-weight: 400;
         text-shadow: 0 0;
     }
 
-    .adminDesc {
+    .admin p {
         display: none;
     }
 
-    .teamDesc {
+    .teamDesc p {
         display: none;
     }
 }
@@ -261,7 +261,7 @@
         flex-direction: column;
     }
 
-    .teamTitle {
+    .teamText h3 {
         width: 80vw;
         margin-left: 0px;
     }
@@ -270,11 +270,11 @@
         text-align: center;
     }
 
-    .adminDesc {
+    .admin p {
         display: none;
     }
 
-    .teamDesc {
+    .teamDesc p {
         display: none;
     }
 
@@ -285,7 +285,7 @@
         justify-content: center;
     }
 
-    .adminTitle {
+    .admin h4 {
         font-size: 25px;
         font-weight: 400;
         text-shadow: 0 0 0;

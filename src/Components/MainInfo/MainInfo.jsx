@@ -3,6 +3,9 @@ import dTributario from '../../Img/bank.svg'
 import dLaboral from '../../Img/user.svg'
 import dFamiliar from '../../Img/home.svg'
 import dCivil from '../../Img/journal.svg'
+import P from '../P/P'
+import H3 from '../H3/H3'
+import H4 from '../H4/H4'
 import './mainInfo.css'
 
 export default function MainInfo() {
@@ -12,8 +15,8 @@ export default function MainInfo() {
       <div className='mainInfo'>
 
         <div className='infoText'>
-          <h3 className='infoTitle'>¿Necesitas asesoramiento legal para tu empresa o negocio?</h3>
-          <p className='descTitle'>Nuestro equipo de abogados expertos en derecho empresarial y civil está listo para ayudarte con cualquier problema legal que puedas tener, desde la redacción de contratos hasta la representación en procesos judiciales. Además, nuestro enfoque centrado en el cliente significa que te brindamos la atención y el apoyo que necesitas en cada paso del camino.</p>
+          <H3 className='infoTitle' text='¿Necesitas asesoramiento legal para tu empresa o negocio?' />
+          <P className='descTitle' text='Nuestro equipo de abogados expertos en derecho empresarial y civil está listo para ayudarte con cualquier problema legal que puedas tener, desde la redacción de contratos hasta la representación en procesos judiciales. Además, nuestro enfoque centrado en el cliente significa que te brindamos la atención y el apoyo que necesitas en cada paso del camino.' />
         </div>
 
         <div className='infoDesc'>
@@ -23,17 +26,17 @@ export default function MainInfo() {
             <div className='desc'>
               <div className='title'>
                 <img src={dCivil} alt=""/>
-                <h4 className='cardTitle'>Derecho Civil</h4>
+                <H4 className='cardTitle' text='Derecho Civil' />
               </div>
-              <p className='descInfo'>Accidentes de transito. Contratos y alquileres, desalojos. Prescripción adquisitiva corta y larga. Daños y Perjuicios. Amparos.</p>
+              <P className='descInfo' text='Accidentes de transito. Contratos y alquileres, desalojos. Prescripción adquisitiva corta y larga. Daños y Perjuicios. Amparos.' />
             </div>
 
             <div className='desc'>
               <div className='title'>
                 <img src={dLaboral} alt="" />
-                <h4>Derecho Laboral</h4>
+                <H4 className='cardTitle' text='Derecho Laboral' />
               </div>
-              <p className='descInfo'>No cometas errores, nosotros te asesoramos inscribiendo a tu empleado como corresponde. Accidentes de Riesgo de Trabajo. Despidos.</p>
+              <P className='descInfo' text='No cometas errores, nosotros te asesoramos inscribiendo a tu empleado como corresponde. Accidentes de Riesgo de Trabajo. Despidos.' />
             </div>
 
           </div>
@@ -43,17 +46,17 @@ export default function MainInfo() {
           <div className='desc'>
               <div className='title'>
                 <img src={dTributario} alt="" />
-                <h4>Derecho Tributario</h4>
+                <H4 className='cardTitle' text='Derecho Tributario' />
               </div>
-              <p className='descInfo'>Presentaciones administrativas ante los entes recaudadores. Te asesoramos para evitar que llegues a embargos.</p>
+              <P className='descInfo' text='Presentaciones administrativas ante los entes recaudadores. Te asesoramos para evitar que llegues a embargos.' />
             </div>
 
             <div className='desc'>
               <div className='title'>
                 <img src={dFamiliar} alt="" />
-                <h4>Derecho de Familia</h4>
+                <H4 className='cardTitle' text='Derecho de Familia' />
               </div>
-              <p className='descInfo'>Divorcios, con acuerdo y sin acuerdo. Regimén de comunicación, alimentos, convenios reguladores, permisos de viajes y sucesiones.</p>
+              <P className='descInfo' text='Divorcios, con acuerdo y sin acuerdo. Regimén de comunicación, alimentos, convenios reguladores, permisos de viajes y sucesiones.' />
             </div>
 
           </div>

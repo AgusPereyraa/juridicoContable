@@ -1,4 +1,7 @@
 import React, {useState} from 'react'
+import { Link as Anchor } from 'react-router-dom'
+import P from '../P/P'
+import Span from '../Span/Span'
 import './navbar.css'
 
 
@@ -14,28 +17,29 @@ return (
       <div className='porfile'>
     
         <div className='porfile-text'>
-        <p>Estudio Juridico Contable</p>
-        <p>V & P</p>
+          <P text='Estudio Juridico Contable' />
+          <P text='V & P' />
         </div>
 
       </div>
 
-        <a href="#"><span>Inicio</span></a>
-        <a href="#">Servicios</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Honorarios</a>
-        <a href="#">Contacto</a>
+        <Anchor to='/'><P text='Inicio' /></Anchor>
+        <Anchor to='/services'><P text='Servicios' /></Anchor>
+        <Anchor to='/about'><P text='Nosotros' /></Anchor>
+        <Anchor to='/price'><P text='Honorarios' /></Anchor>
+        <Anchor to='/contact'><P text='Contacto' /></Anchor>
     </div>
+
     <div className={`nav_toggle  ${isOpen && "open"}`} onClick={()=> setIsOpen(!isOpen)}>
-      <span></span>
-      <span></span>
-      <span></span>
+      <Span />
+      <Span />
+      <Span />
     </div>
     
     <div className='title-nav'>
-      <p>Estudio Juridico Contable</p> 
-      <p>V & P</p>
-  </div>
+      <P text='Estudio Juridico Contable' />
+      <P text='V & P' />
+    </div>
   
   </div>
 
