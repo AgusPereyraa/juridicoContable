@@ -44,6 +44,22 @@
     cursor: pointer;
 }
 
+@media (min-width: 770px) and (max-width: 1025px) {
+    .home {
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeButton {
+        width: 70%;
+        margin-top: 0;
+        margin-left: 0;
+        height: 8vh;
+        font-size: 35px;
+    }
+}
+
 /* @media (min-width: 427px) and (max-width: 769px) {
 
 } */
