@@ -41,6 +41,55 @@
     font-size: 20px;
 }
 
+@media (min-width: 770px) and (max-width: 1024px) {
+    #Footer-contain {
+        gap: 20rem;
+    }
+
+    .footerLinks {
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .footerLinks h4 {
+        font-size: 28px;
+    }
+
+    .footerLinks a {
+        font-size: 20px;
+    }
+
+    .footerLinks p {
+        font-size: 20px;
+    }
+
+    .footerLinks img {
+        height: 33px;
+    }
+
+    .footerPhone {
+        display: flex;
+        gap: 1rem;
+        width: 60%;
+        align-items: center;
+    }
+
+    .footerEmail {
+        display: flex;
+        gap: 1rem;
+        width: 60%;
+        align-items: center;
+    }
+
+    .footerLocation {
+        display: flex;
+        gap: 1rem;
+        width: 60%;
+        align-items: center;
+    }
+}
+
 @media (min-width: 427px) and (max-width: 769px) {
     #Footer-contain {
         gap: 10rem;
