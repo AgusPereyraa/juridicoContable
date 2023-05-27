@@ -76,6 +76,41 @@
     text-align: center;
 }
 
+@media (min-width: 427px) and (max-width: 768px) {
+    .teamMain {
+        height: 90vh;
+    }
+
+    .teamTitle {
+        margin: 0;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .teamAdmin {
+        flex-direction: column;
+        margin-top: 0;
+        gap: .3rem;
+        width: 75vw;
+    }
+
+    .admin img {
+        height: 70px;
+    }
+
+    .admin h4 {
+        font-size: 25px;
+    }
+
+    .admin p {
+        font-size: 20px;
+    }
+
+    .teamDesc {
+        display: none;
+    }
+}
+
 @media (min-width: 377px) and (max-width: 426px) {
     .teamMain {
         height: 95vh;
