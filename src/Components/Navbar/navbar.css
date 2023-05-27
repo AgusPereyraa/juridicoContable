@@ -82,7 +82,7 @@ nav {
     position: fixed;
     top: 0px;
     left: 0;
-    background: #653102ec;
+    background: #864101e8;
     display: flex;
     flex-direction: column;
     transform: translateY(-100%);
@@ -140,108 +140,12 @@ nav {
 }
 
 .nav_items {
-    justify-content: flex-start;
     display: flex;
     padding-top: 30px;
+    gap: 1rem;
 }
 
-
-@media (max-width: 1345px) {
-    .nav_toggle.open>span {
-        transform: rotate(45deg) translate(0px, 0px);
-        margin-top: -8px;
-        margin-left: 15%;
-    }
-}
-
-
-@media (max-width: 1024px) {
-    .nav_items span {
-
-        padding: 10px 3rem;
-    }
-
-    .nav_items {
-        width: 50%;
-    }
-
-    .nav_toggle.open>span {
-        transform: rotate(45deg) translate(0px, 0px);
-        margin-top: -8px;
-        margin-left: 30%;
-    }
-}
-
-
-
-
-@media (max-width: 700px) {
-    .nav_items {
-        position: absolute;
-        top: 0px;
-        left: 0;
-        background: #ab5301af;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: -webkit-fill-available;
-        transform: translateX(-100%);
-        transition: all ease .3s;
-        height: 100vh;
-        position: fixed;
-    }
-
-    .nav_items.open {
-        transform: translateX(0) !important
-    }
-
-    .nav_items a {
-        display: flex;
-    }
-
-    .porfile-text p {
-        font-size: 14px;
-    }
-
-    .nav_toggle {
-        display: flex !important;
-        flex-direction: column;
-        margin: 15px;
-    }
-
-    .nav_toggle span {
-        width: 30px;
-        height: 4px;
-        background: #ab5301af;
-        margin-bottom: 5px;
-        border-radius: 2px;
-        transform-origin: 5px 0px;
-        transition: all ease .3s;
-
-    }
-
-
-    .nav_toggle.open>span {
-        transform: rotate(45deg) translate(0px, 0px);
-        margin-top: -8px;
-        margin-left: 70%
-    }
-
-    .nav_toggle.open>span:nth-child(2) {
-        display: none;
-    }
-
-    .nav_toggle.open>span:nth-child(3) {
-        transform: rotate(-45deg) translate(-5px, 1px);
-    }
-
-    .nav_items span {
-
-        padding: 10px 5rem;
-    }
-}
-
-@media (max-width: 375px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
     nav {
         width: 100%;
         height: 10vh;
@@ -250,27 +154,162 @@ nav {
 
     .nav_items {
         height: 100%;
-        gap: 1rem;
-        background: #733801d5;
+        justify-content: center;
+        align-items: center;
+        width: 35vw;
     }
 
-    .porfile {
-        margin-top: 4rem;
+    .porfile-text p {
+        font-size: 30px;
     }
 
     .nav_items a {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        height: 6.5vh;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav {
+        width: 100%;
+        height: 10vh;
+        padding: 1rem;
+    }
+
+    .nav_items {
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+    }
+
+    .porfile-text p {
         font-size: 30px;
     }
 
-    .porfile-text p{
+    .nav_items a {
+        display: flex;
+        flex-direction: column;
         font-size: 30px;
+        height: 6.5vh;
+    }
+}
+
+@media (min-width: 427px) and (max-width: 768px) {
+    nav {
+        width: 100%;
+        height: 10vh;
+        padding: 1rem;
     }
 
+    .nav_items {
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+    }
+
+    .nav_items a {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        height: 6.5vh;
+    }
+
+    .nav_toggle.open>span {
+        transform: rotate(45deg) translate(0px, -5px);
+        margin-top: -8px;
+        margin-left: 35vw;
+    }
+
+    .nav_toggle.open>span:nth-child(3) {
+        transform: rotate(-45deg) translate(0px, 1px);
+        background: #fff;
+    }
+
+    .porfile-text p {
+        font-size: 32px;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+    nav {
+        width: 100%;
+        height: 10vh;
+        padding: 1rem;
+    }
+
+    .nav_items {
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .nav_items a {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        height: 6.5vh;
+    }
+
+    .nav_toggle.open>span {
+        transform: rotate(45deg) translate(-6px, 1px);
+        margin-top: -8px;
+        margin-left: 75%;
+    }
+
+    .nav_toggle.open>span:nth-child(3) {
+        transform: rotate(-45deg) translate(8px, 10px);
+        margin-left: 70%;
+        background: #fff;
+    }
+
+    .porfile-text p {
+        font-size: 32px;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 376px) {
+    nav {
+        width: 100%;
+        height: 10vh;
+        padding: 1rem;
+    }
+
+    .nav_items {
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .nav_items a {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        height: 6.5vh;
+    }
     
     .nav_toggle.open>span {
-        transform: rotate(45deg) translate(0px, 0px);
+        transform: rotate(45deg) translate(-4px, 1px);
         margin-top: -8px;
+        margin-left: 75%;
+    }
+
+    .nav_toggle.open>span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, 10px);
         margin-left: 70%;
+        background: #fff;
+    }
+
+    .porfile-text p {
+        font-size: 32px;
+        margin-top: 1rem;
     }
 }
 
@@ -282,23 +321,33 @@ nav {
     }
 
     .nav_items {
-        height: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
     }
 
     .nav_items a {
         display: flex;
         flex-direction: column;
-        font-size: 30px;
+        font-size: 20px;
+        height: 5vh;
     }
     
     .nav_toggle.open>span {
-        transform: rotate(45deg) translate(0px, 0px);
-        margin-top: -8px;
-        margin-left: 75%;
+        transform: rotate(45deg) translate(0px, -3px);
+        margin-top: -10px;
+        margin-left: 70%;
+    }
+
+    .nav_toggle.open>span:nth-child(3) {
+        transform: rotate(-45deg) translate(0px, 0px);
+        margin-left: 70%;
+        background: #fff;
     }
 
     .porfile-text p {
         font-size: 32px;
-        margin-top: 4rem;
+        margin-top: 1rem;
     }
 }
