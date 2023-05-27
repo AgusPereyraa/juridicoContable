@@ -103,6 +103,45 @@
     text-shadow: 1px 1px 5px #625555;
 }
 
+@media (min-width: 770px) and (max-width: 1024px) {
+    .mainInfo {
+        height: 90vh;
+    }
+
+    .infoText {
+        gap: 1rem;
+    }
+
+    .infoTitle {
+        font-size: 35px;
+        width: 60%;
+    }
+    
+    .descTitle {
+        font-size: 23px;
+    }
+
+    .desc {
+        height: 27vh;
+        display: flex;
+        flex-direction: column;
+        gap: .3rem;
+    }
+
+    .title img {
+        height: 40px;
+    }
+
+    .title h4 {
+        font-size: 25px;
+    }
+
+    .descInfo {
+        font-size: 24px;
+    }
+
+}
+
 @media (min-width: 427px) and (max-width: 769px) {
     .mainInfo {
         height: 88vh;
