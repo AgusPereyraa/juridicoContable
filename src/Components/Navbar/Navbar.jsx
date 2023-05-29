@@ -26,7 +26,7 @@ return (
         <Anchor to='/'><P text='Inicio' /></Anchor>
         <Anchor to='/services'><P text='Servicios' /></Anchor>
         <Anchor to='/about'><P text='Nosotros' /></Anchor>
-        <Anchor to='/price'><P text='Honorarios' /></Anchor>
+        <Anchor to='/prices'><P text='Honorarios' /></Anchor>
         <Anchor to='/contact'><P text='Contacto' /></Anchor>
     </div>
 
