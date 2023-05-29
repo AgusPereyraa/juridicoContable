@@ -20,22 +20,21 @@ export default function Footer() {
             </div>
 
             <div className='footerLinks'>
-                <h4 className='footerTitle'>Contacto</h4>
+                <H4 className='footerTitle' text='Contacto' />
                 <div className='footerPhone'>
                     <img src={Phone} alt='logo-phone'/>
-                    <p>011 - 2252 - 3564</p>
+                    <P text='011 - 2252 - 3564' />
                 </div>
 
                 <div className='footerEmail'>
                     <img src={Mail} alt='logo-mail'/>
-                    <p>estudiojuridicocontablevyp
-                        @gmail.com
-                    </p>
+                    <P text='estudiojuridicocontablevyp
+                        @gmail.com' />
                 </div>
 
                 <div className='footerLocation'>
                     <img src={Location} alt='logo-location' />
-                    <p>Belgrano, Buenos Aires, Argentina</p>
+                    <P text='Belgrano, Buenos Aires, Argentina' />
                 </div>
 
             </div>
