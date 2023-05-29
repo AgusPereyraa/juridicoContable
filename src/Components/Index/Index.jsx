@@ -6,9 +6,9 @@ import MainTeam from '../MainTeam/MainTeam'
 export default function Index() {
     return (
       <div className='main2'>
-      <MainHome classname='home' />
-      <MainInfo classname='info' />
-      <MainTeam classname='team' />
+        <MainHome classname='home' />
+        <MainInfo classname='info' />
+        <MainTeam classname='team' />
       </div>
     )
   }
