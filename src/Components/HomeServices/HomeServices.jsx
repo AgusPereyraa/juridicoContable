@@ -25,6 +25,7 @@ export default function HomeServices() {
       </div>
 
       <div className='descServices'>
+        
         <div className='services'>
           <img src={Tributario} alt="" className='tributario' />
           <H4 text='Derecho Tributario' />
@@ -58,7 +59,7 @@ export default function HomeServices() {
         <div className='services'>
           <img src={DJurada} alt="" />
           <H4 text='Presentación de DDJJ' />
-          <P text='realizamos las presentaciones de tus impuestos de manera efectiva y en tiempo y forma. Ya sea que necesites presentar tu declaración jurada de ganancias o de bienes personales, nuestro equipo de abogados y contadores altamente capacitados están aquí para brindarte soluciones personalizadas.' />
+          <P text='Realizamos las presentaciones de tus impuestos de manera efectiva y en tiempo y forma. Ya sea que necesites presentar tu declaración jurada de ganancias o de bienes personales, nuestro equipo de abogados y contadores altamente capacitados están aquí para brindarte soluciones personalizadas.' />
         </div>
 
         <div className='services'>
