@@ -147,13 +147,16 @@
 
 @media (min-width: 427px) and (max-width: 769px) {
     #Footer-contain {
-        gap: 10rem;
+        gap: 0;
+        padding: 1rem;
     }
 
     .footerLinks {
         justify-content: center;
         align-items: center;
         gap: .5rem;
+        width: 60vw;
+        margin: .5rem;
     }
 
     .footerLinks h4 {
@@ -183,7 +186,12 @@
         display: flex;
         gap: 1rem;
         width: 60%;
-        align-items: center;
+    }
+
+    .footerEmail p{
+        display: flex;
+        gap: 1rem;
+        width: 10%;
     }
 
     .footerLocation {

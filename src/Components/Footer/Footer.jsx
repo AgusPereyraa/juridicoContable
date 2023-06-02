@@ -28,8 +28,7 @@ export default function Footer() {
 
                 <div className='footerEmail'>
                     <img src={Mail} alt='logo-mail'/>
-                    <P text='estudiojuridicocontablevyp
-                        @gmail.com' />
+                    <P text='estudiojuridicocontablevyp@gmail.com' />
                 </div>
 
                 <div className='footerLocation'>
