@@ -8,6 +8,7 @@ export default function HomeAbout() {
     <div className='homeAbout'>
       <H2 />
       <P />
+      <P  />
     </div>
   )
 }
