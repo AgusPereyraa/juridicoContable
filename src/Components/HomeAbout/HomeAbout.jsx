@@ -11,6 +11,9 @@ export default function HomeAbout() {
       <div className='divAbout'>
         <P />
       </div>
+      <div className='abhoutDiv'>
+
+      </div>
     </div>
   )
 }
