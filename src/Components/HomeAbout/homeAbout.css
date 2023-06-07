@@ -1,4 +1,23 @@
 .homeAbout {
-    height: 100vh;
-    background-color: wheat;
+    min-height: 100vh;
+    background: url(../../Img/backgroundInfo.png);
+}
+
+.aboutWelcome {
+    background: url(../../Img/backgroundAbout.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+.aboutWelcome H2 {
+    font-size: 50px;
+    text-shadow: 1px 1px 5px #625555;
+    color: rgb(59, 50, 40);
+}
+
+.aboutWelcome P {
+    font-size: 25px;
+    text-shadow: 1px 1px 5px #625555;
 }
