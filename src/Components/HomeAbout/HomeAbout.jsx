@@ -1,7 +1,9 @@
 import React from 'react'
 import './homeAbout.css'
 import H2 from '../H2/H2'
+import H4 from '../H4/H4'
 import P from '../P/P'
+import Admin from '../../Img/profile-circle.svg'
 
 export default function HomeAbout() {
   return (
@@ -24,6 +26,30 @@ export default function HomeAbout() {
           </div>
 
         </div>
-    </div>
+
+        <div className='teamAdmin'>
+
+          <div className='admin'>
+            <img src={Admin} alt="" />
+            <H4 className='adminTitle' text='Agustina Vicente' />
+            <P className='adminDesc' text='Contadora, recibida de la USAL, con experiencia en impuestos e industria fintech' />
+          </div>
+
+          <div className='admin'>
+            <img src={Admin} alt="" />
+            <H4 className='adminTitle' text='Sebastian Pereyra' />
+            <P className='adminDesc' text='Procurador y abogado, recibido de la UBA, con especialización en el area de Derecho Tributario.' />
+          </div>
+
+          <div className='admin'>
+            <img src={Admin} alt="" />
+            <H4 className='adminTitle' text='Nadia Pereyra' />
+            <P className='adminDesc' text='Abogada, recibida de la UBA, con especialización y experiencia en el area de Derecho Empresarial.' />
+          </div>
+
+        </div>
+
+        </div>
+
   )
 }
