@@ -12,7 +12,7 @@ export default function HomeAbout() {
         <P />
       </div>
       <div className='abhoutDiv'>
-
+        <P />
       </div>
     </div>
   )
