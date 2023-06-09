@@ -21,11 +21,11 @@ export default function HomeContact() {
 
           <div className='form'>
 
-            <div className='input'>
+            <form action='post' className='input'>
               <input type="text" className='inputForm' placeholder='Nombre*'/>
               <input type="text" className='inputForm' placeholder='Email*'/>
               <input type="text-area" className='inputForm' placeholder='Deje su mensaje.'/>
-            </div>
+            </form>
               <button type="submit">Enviar</button>
 
           </div>
