@@ -86,7 +86,7 @@ nav {
     display: flex;
     flex-direction: column;
     transform: translateY(-100%);
-    transition: all ease .3s;
+    transition: all ease 1s;
     height: 100vh;
     border-radius: 7px;
 }
@@ -113,7 +113,7 @@ nav {
     margin-bottom: 5px;
     border-radius: 2px;
     transform-origin: 5px 0px;
-    transition: all ease .3s;
+    transition: all ease 1s;
 }
 
 .nav_toggle {
