@@ -2,6 +2,7 @@
     background: url(../../Img/backgroundInfo.png);
     min-height: 100vh;
     padding: 1rem;
+    border-top: 5px solid #ab530180;
 }
 
 .textContact {
