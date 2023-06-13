@@ -6,7 +6,7 @@
     background-size: cover;
 }
 
-@media (min-width: 770px) and (max-width: 1024px) {
+/* @media (min-width: 770px) and (max-width: 1024px) {
     .main {
         height: 100vh;
         background: url(../../Img/background-home.png);
@@ -44,9 +44,19 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+} */
+
+@media (max-width: 800px) {
+    .main {
+        /* background: url(../../Img/backgroundInfo.png); */
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
     .main {
         background: url(../../Img/backgroundInfo.png);
         height: 100vh;

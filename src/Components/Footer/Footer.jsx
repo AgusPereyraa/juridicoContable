@@ -11,16 +11,16 @@ export default function Footer() {
     return (
         <div id='Footer-contain'>
             <div className='footerLinks'>
-                <H4 className='footerTitle' text='Links' />
+                <H4 text='Links' />
                 <Anchor to='/'><P text='Inicio' /></Anchor>
                 <Anchor to='/services'><P text='Servicios' /></Anchor>
                 <Anchor to='/about'><P text='Sobre Nosotros' /></Anchor>
-                <Anchor to='/price'><P text='Honorarios' /></Anchor>
+                <Anchor to='/prices'><P text='Honorarios' /></Anchor>
                 <Anchor to='/contact'><P text='Contacto' /></Anchor>
             </div>
 
             <div className='footerLinks'>
-                <H4 className='footerTitle' text='Contacto' />
+                <H4 text='Contacto' />
                 <div className='footerPhone'>
                     <img src={Phone} alt='logo-phone'/>
                     <P text='011 - 2252 - 3564' />
