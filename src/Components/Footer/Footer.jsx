@@ -12,11 +12,11 @@ export default function Footer() {
         <div id='Footer-contain'>
             <div className='footerLinks'>
                 <H4 text='Links' />
-                <Anchor to='/'><P text='Inicio' /></Anchor>
-                <Anchor to='/services'><P text='Servicios' /></Anchor>
-                <Anchor to='/about'><P text='Sobre Nosotros' /></Anchor>
-                <Anchor to='/prices'><P text='Honorarios' /></Anchor>
-                <Anchor to='/contact'><P text='Contacto' /></Anchor>
+                <Anchor to='/'>Inicio</Anchor>
+                <Anchor to='/services'>Servicios</Anchor>
+                <Anchor to='/about'>Sobre Nosotros</Anchor>
+                <Anchor to='/prices'>Honorarios</Anchor>
+                <Anchor to='/contact'>Contacto</Anchor>
             </div>
 
             <div className='footerLinks'>
@@ -28,8 +28,8 @@ export default function Footer() {
 
                 <div className='footerEmail'>
                     <img src={Mail} alt='logo-mail'/>
-                    <P text='estudiojuridicocontablevyp' />
-                    <P text='@gmail.com' />    
+                    <P text='estudiojuridicocontablevyp
+                    @gmail.com' />  
                 </div>
 
                 <div className='footerLocation'>
