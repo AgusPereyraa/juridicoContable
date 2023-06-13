@@ -245,7 +245,41 @@
     }
 } */
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
+    #mainTeam {
+        padding: 1rem;
+    }
+
+    .teamMain {
+        height: 90vh;
+    }
+
+    .teamAdmin {
+        gap: 0;
+        margin-top: 0;
+    }
+
+    .teamDesc p{
+        font-size: 25px;
+    }
+
+    .admin img {
+        height: 60px;
+        width: 60px;
+        color: white;
+        object-fit: cover;
+    }
+
+    .admin h4 {
+        font-size: 25px;
+    }
+
+    .admin p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
 
     .teamMain {
         width: 100%;
@@ -260,6 +294,7 @@
     .teamAdmin {
         width: 87%;
         flex-direction: column;
+        gap: 3rem;
     }
 
     .teamText h3 {
@@ -288,6 +323,7 @@
 
     .admin img {
         height: 100px;
+        width: 100px;
     }
 
     .admin h4 {

@@ -6,49 +6,9 @@
     background-size: cover;
 }
 
-/* @media (min-width: 770px) and (max-width: 1024px) {
-    .main {
-        height: 100vh;
-        background: url(../../Img/background-home.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-
-@media (min-width: 427px) and (max-width: 769px) {
-    .main{
-        height: 100vh;
-        background: url(../../Img/background-home.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-
-@media (min-width: 377px) and (max-width: 426px) {
-    .main {
-        background: url(../../Img/backgroundInfo.png);
-        height: 100vh;
-        background-position: contain;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-
-@media (min-width: 321px) and (max-width: 376px) {
-    .main {
-        background: url(../../Img/backgroundInfo.png);
-        height: 100vh;
-        background-position: contain;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-} */
 
 @media (max-width: 800px) {
     .main {
-        /* background: url(../../Img/backgroundInfo.png); */
         height: 100vh;
         background-position: center;
         background-repeat: no-repeat;
@@ -56,7 +16,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .main {
         background: url(../../Img/backgroundInfo.png);
         height: 100vh;
@@ -66,70 +26,3 @@
     }
 }
 
-
-/* @media (max-width: 1023px){
-    .main{
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: 0;
-    }
-    .contain{
-        display: none;
-    }
-    .home-fondo{
-        background: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 5rem;
-    }
-
-    .home-fondo .home-fondo-text{
-        gap: 25px;
-        margin: 0;
-        align-items: center;
-    }
-
-    .home-fondo .home-fondo-text h1{
-        width: 388px;
-        height: 76px;
-        font-size: 40px;
-        text-align: center;
-    }
-
-    .home-fondo .home-fondo-text h6{
-        width: 388px;
-        height: 76px;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .home-fondo .home-fondo-text p{
-        display: none;
-    }
-    
-    .home-fondo .home-fondo-text .explore-btn{
-        width: 363px;
-        height: 59px;
-        border-radius: 50000px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), inset 0px 4px 4px rgba(255, 255, 255, 0.1);
-        padding: 20px 55px;
-    }
-}
-
-@media (max-width: 432px){
-    .home-fondo .home-fondo-text h1{
-        width: auto;
-        font-size: 32px;
-    }
-
-    .home-fondo .home-fondo-text h6{
-        width: auto;
-    }
-}
-
-@media (max-width: 390px){
-    .home-fondo .home-fondo-text .explore-btn{
-        width: 100%;
-    }
-} */ 

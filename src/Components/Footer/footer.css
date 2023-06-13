@@ -58,6 +58,7 @@
 
     .footerLinks h4 {
         font-size: 25px;
+        text-shadow: 1px 1px 5px #625555;
     }
 
     .footerLinks p {
