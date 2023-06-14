@@ -197,12 +197,9 @@
 
     .homeButton {
         margin-left: 0;
-        width: 55%;
-        height: 70px
-    }
-
-    .homeButton p{
-        text-align: center;
+        width: 19rem;
+        height: 70px;
+        text-align: left;
     }
 }
 
@@ -237,7 +234,7 @@
     }
 
     .homeButton {
-        width: 85vw;
+        width: 19rem;
         margin-left: 0;
     }
 
