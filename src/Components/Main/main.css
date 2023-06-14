@@ -10,7 +10,7 @@
 @media (max-width: 800px) {
     .main {
         height: 100vh;
-        background-position: center;
+        background-position-x: 70%;
         background-repeat: no-repeat;
         background-size: cover;
     }

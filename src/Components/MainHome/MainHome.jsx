@@ -10,7 +10,9 @@ export default function MainHome() {
         <div className='home'>
             <H2 text='¿Necesitas ayuda legal o contable?'/>
             <P text='¡Podemos ayudarte!'/>
-            <Span id='descHome' text='En el Estudio Jurídico Contable V & P, ofrecemos una amplia gama de servicios legales y contables para ayudarte en todo lo que necesites. Desde asesoría fiscal y contable hasta litigios civiles y comerciales. Contáctanos hoy para obtener más información sobre cómo podemos ayudarte a resolver tus problemas legales y contables.'/>
+            <div className='homeDesc'>
+                <Span id='descHome' text='En el Estudio Jurídico Contable V & P, ofrecemos una amplia gama de servicios legales y contables para ayudarte en todo lo que necesites. Desde asesoría fiscal y contable hasta litigios civiles y comerciales. Contáctanos hoy para obtener más información sobre cómo podemos ayudarte a resolver tus problemas legales y contables.'/>
+            </div>
             <Anchor to='/contact' className='homeButton'>
                 <P text='Contactanos'/>
             </Anchor>

@@ -69,6 +69,25 @@
         font-size: 18px;
     }
 
+    .footerLinks1 {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footerLinks1 h4 {
+        font-size: 25px;
+        text-shadow: 1px 1px 5px #625555;
+    }
+
+    .footerLinks1 p {
+        font-size: 18px;
+    }
+
+    .footerLinks1 a {
+        font-size: 18px;
+    }
+
     .footerPhone {
         display: flex;
         gap: 1rem;
@@ -86,7 +105,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     #Footer-contain {
         width: 100vw;
         display: flex;
@@ -103,6 +122,10 @@
         justify-content: center;
         gap: .5rem;
         margin: 20px;
+    }
+
+    .footerLinks1 h4{
+        text-align: center;
     }
 
     .footerLinks h4 {
@@ -130,11 +153,32 @@
         align-items: center;
     }
 
+    .footerPhone img {
+        height: 30px;
+    }
+
+    .footerPhone a {
+        font-size: 25px;
+        text-decoration: none;
+        color: black;
+    }
+
     .footerEmail {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .footerEmail img{
+        height: 30px;
+    }
+
+    .footerEmail a{
+        font-size: 25px;
+        text-decoration: none;
+        color: black;
+        text-align: center;
     }
 
     .footerLocation {
@@ -143,5 +187,16 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
+    }
+
+    .footerLocation img {
+        height: 30px;
+    }
+
+    .footerLocation a{
+        font-size: 25px;
+        text-decoration: none;
+        color: black;
+        text-align: center;
     }
 }
