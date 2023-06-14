@@ -87,7 +87,7 @@
 
     .home span {
         font-size: 32px;
-        line-height: 55px;
+        line-height: 50px;
         text-align: left;
         text-shadow: 0px 0px 10px white;
         font-weight: 600;
@@ -95,12 +95,11 @@
 
     .homeButton {
         margin-left: 0;
-        width: 55%;
-        height: 70px
-    }
-
-    .homeButton p{
-        text-align: center;
+        width: 19rem;
+        padding: 0 0 0 .5rem;
+        height: 70px;
+        text-align: left;
+        font-size: 60px;
     }
 }
 
@@ -148,13 +147,11 @@
 
     .homeButton {
         margin-left: 0;
-        width: 55%;
-        height: 70px
+        width: 19rem;
+        height: 70px;
+        text-align: left;
     }
 
-    .homeButton p{
-        text-align: center;
-    }
 }
 
 @media (max-width: 800px) {
