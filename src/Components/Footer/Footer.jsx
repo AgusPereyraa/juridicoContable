@@ -27,13 +27,21 @@ export default function Footer() {
 
                 <div className='footerEmail'>
                     <img src={Mail} alt='logo-mail' />
-                    <Anchor to="mailto:estudiojuridicocontablevyp@gmail.com">estudiojuridicocontablevyp@
-                    gmail.com</Anchor>
+
+                    <div className='linksEmail'>
+                        <Anchor to="mailto:estudiojuridicocontablevyp@gmail.com">estudiojuridicocontablevyp</Anchor>
+                        <Anchor to="mailto:estudiojuridicocontablevyp@gmail.com">@gmail.com</Anchor>
+                    </div>
+
                 </div>
 
                 <div className='footerLocation'>
                     <img src={Location} alt='logo-location' />
-                    <Anchor>Belgrano, Buenos Aires, Argentina</Anchor>
+                    <div className='linksLocation'>
+                        <Anchor>Belgrano, Buenos Aires</Anchor>
+                        <Anchor>Argentina</Anchor>
+                    </div>
+
                 </div>
 
             </div>

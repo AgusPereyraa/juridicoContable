@@ -77,173 +77,95 @@
     text-align: center;
 }
 
-/* @media (min-width: 1025px) and (max-width: 1440px) {
+@media (max-width: 1440px) {
+    #mainTeam {
+        padding: 1rem;
+    }
+
     .teamMain {
-        height: 80vh;
-    }
-
-    .admin {
-        height: 45vh;
-    }
-
-    .admin img {
-        height: 120px;
-    }
-
-    .admin h4 {
-        font-size: 28px;
-    }
-
-    .admin p {
-        font-size: 20px;
-    }
-
-    .teamDesc p {
-        font-size: 25px;
-    }
-} */
-
-/* @media (min-width: 769px) and (max-width: 1024px) {
-    .teamMain {
-        height: 88vh;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
     .teamText h3 {
-        margin: 0;
-        text-align: center;
-        font-size: 35px;
-    }
-
-    .admin {
-        height: 50vh;
-    }
-
-    .admin img {
-        height: 100px;
-    }
-
-    .admin h4 {
-        font-size: 25px;
-    }
-
-    .admin p {
-        font-size: 20px;
-    }
-
-    .teamDesc p {
-        font-size: 23px;
-    }
-} */
-
-/* @media (min-width: 427px) and (max-width: 768px) {
-    .teamMain {
-        height: 90vh;
-    }
-
-    .teamText h3 {
-        margin: 0;
-        text-align: center;
-        font-size: 35px;
+        font-size: 50px;
     }
 
     .teamAdmin {
-        flex-direction: column;
-        margin-top: 0;
-        gap: .3rem;
-        width: 75vw;
-    }
-
-    .admin img {
-        height: 70px;
-    }
-
-    .admin h4 {
-        font-size: 25px;
-    }
-
-    .admin p {
-        font-size: 20px;
-    }
-
-    .teamDesc p {
-        display: none;
-    }
-} */
-
-/* @media (min-width: 377px) and (max-width: 426px) {
-    .teamMain {
-        height: 95vh;
-    }
-
-    .teamText h3 {
-        margin: 0;
-        text-align: center;
-        font-size: 35px;
-    }
-
-    .teamAdmin {
-        flex-direction: column;
-        margin-top: 0;
-        gap: .3rem;
-    }
-
-    .admin {
-        width: 70vw;
-        gap: .3rem;
-    }
-
-    .admin h4 {
-        font-size: 30px;
-        font-weight: 400;
-        text-shadow: 0 0;
-    }
-
-    .admin p {
-        display: none;
-    }
-
-    .teamDesc p {
-        display: none;
-    }
-} */
-
-/* @media (min-width: 321px) and (max-width: 376px) {
-    .teamMain {
-        height: 95vh;
-    }
-
-    .teamAdmin {
-        flex-direction: column;
-        width: 70vw;
         gap: 0;
         margin-top: 0;
     }
 
-    .teamText h3 {
-        text-align: center;
-        margin-left: 0;
-        font-size: 35px;
-        margin-top: 5px;
+    .teamDesc p{
+        font-size: 26px;
     }
 
-    .admin{
-        height: 25vh;
+    .admin {
+        height: 24rem;
+    }
+
+    .admin img {
+        height: 80px;
+        width: 80px;
+        color: white;
+        object-fit: cover;
     }
 
     .admin h4 {
-        font-size: 30px;
-        font-weight: 400;
-        text-shadow: 0 0;
+        font-size: 27px;
     }
 
     .admin p {
-        display: none;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #mainTeam {
+        padding: 1rem;
     }
 
-    .teamDesc p {
-        display: none;
+    .teamMain {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
-} */
+
+    .teamText h3 {
+        font-size: 45px;
+    }
+
+    .teamAdmin {
+        gap: 0;
+        margin-top: 0;
+    }
+
+    .teamDesc p{
+        font-size: 26px;
+    }
+
+    .admin {
+        height: 24rem;
+    }
+
+    .admin img {
+        height: 80px;
+        width: 80px;
+        color: white;
+        object-fit: cover;
+    }
+
+    .admin h4 {
+        font-size: 27px;
+    }
+
+    .admin p {
+        font-size: 24px;
+    }
+}
 
 @media (max-width: 800px) {
     #mainTeam {
@@ -254,7 +176,6 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        gap: 1rem;
         justify-content: space-evenly;
     }
 
@@ -268,7 +189,7 @@
     }
 
     .admin {
-        height: 20rem;
+        height: 23rem;
     }
 
     .admin img {
@@ -283,7 +204,7 @@
     }
 
     .admin p {
-        font-size: 20px;
+        font-size: 22px;
     }
 }
 
