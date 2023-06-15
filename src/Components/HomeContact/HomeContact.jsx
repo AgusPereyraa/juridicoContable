@@ -14,11 +14,11 @@ export default function HomeContact() {
 
     emailjs.sendForm('service_tmggftq', 'template_pccebwj', form.current, '4pRat-Hd2RpTin-Nr')
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
-      e.target.reset()
+    e.target.reset()
   };
 
   return (
@@ -31,19 +31,19 @@ export default function HomeContact() {
 
       <div className='formContact'>
 
-        <div className='allenar'>
-          <img src={Logo2} alt="" />
-        </div>
-
         <div className='form'>
 
           <form ref={form} onSubmit={sendEmail} className='input'>
-            <input type="text" name={"user_name"} className='inputForm' placeholder='Nombre'/>
-            <input type="email" name={"user_email"} className='inputForm'placeholder='Email'/>
-            <textarea name={"message"} className='inputFormArea' placeholder='Deje su mensaje.'/>
-            <input type="submit" value="Enviar" className='buttonForm'/>
+            <input type="text" name={"user_name"} className='inputForm' placeholder='Nombre' />
+            <input type="email" name={"user_email"} className='inputForm' placeholder='Email' />
+            <textarea name={"message"} className='inputFormArea' placeholder='Deje su mensaje.' />
+            <input type="submit" value="Enviar" className='buttonForm' />
           </form>
 
+        </div>
+
+        <div className='allenar'>
+          <img src={Logo2} alt="" />
         </div>
 
       </div>

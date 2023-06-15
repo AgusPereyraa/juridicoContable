@@ -64,10 +64,6 @@
     .aboutContact {
         width: 90%;
     }
-
-    .about {
-        flex-wrap: none;
-    }
 }
 
 @media (max-width: 1024px) {
@@ -93,7 +89,7 @@
     }
 
     .about {
-        flex-wrap: none;
+        flex-wrap: nowrap;
     }
 }
 
