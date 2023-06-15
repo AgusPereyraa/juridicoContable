@@ -77,6 +77,52 @@
     text-align: center;
 }
 
+@media (max-width: 2560px) {
+    #mainTeam {
+        padding: 1rem;
+        border-top: none;
+    }
+
+    .teamMain {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .teamText h3 {
+        font-size: 50px;
+    }
+
+    .teamAdmin {
+        gap: 0;
+        margin-top: 0;
+    }
+
+    .teamDesc p{
+        font-size: 26px;
+    }
+
+    .admin {
+        height: 24rem;
+    }
+
+    .admin img {
+        height: 80px;
+        width: 80px;
+        color: white;
+        object-fit: cover;
+    }
+
+    .admin h4 {
+        font-size: 27px;
+    }
+
+    .admin p {
+        font-size: 24px;
+    }
+}
+
 @media (max-width: 1440px) {
     #mainTeam {
         padding: 1rem;
