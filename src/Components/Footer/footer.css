@@ -1,7 +1,5 @@
 #Footer-contain {
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
     gap: 20rem;
     background: url(../../Img/backgroundInfo.png);
     background-position: contain;
@@ -12,7 +10,7 @@
     border-top: 5px solid #ab530180;
 }
 
- .footerLinks {
+.footerLinks {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -46,7 +44,7 @@
 
 @media (max-width: 1440px) {
     #Footer-contain {
-        width: 100vw;
+        width: 100%;
         display: flex;
         justify-content: center;
         padding: 2rem;

@@ -80,6 +80,7 @@
 @media (max-width: 1440px) {
     #mainTeam {
         padding: 1rem;
+        border-top: none;
     }
 
     .teamMain {
@@ -125,6 +126,7 @@
 @media (max-width: 1024px) {
     #mainTeam {
         padding: 1rem;
+        border-top: none;
     }
 
     .teamMain {
@@ -170,6 +172,7 @@
 @media (max-width: 800px) {
     #mainTeam {
         padding: 1rem;
+        border-top: none;
     }
 
     .teamMain {
@@ -209,6 +212,10 @@
 }
 
 @media (max-width: 600px) {
+
+    #mainTeam {
+        border-top: none;
+    }
 
     .teamMain {
         width: 100%;

@@ -2,12 +2,10 @@ import React from 'react'
 import './homeAbout.css'
 import H2 from '../H2/H2'
 import H3 from '../H3/H3'
-import H4 from '../H4/H4'
 import P from '../P/P'
-import Span from '../Span/Span'
-import Admin from '../../Img/profile-circle.svg'
 import Logo1 from '../../Img/Logo1.png'
 import { Link as Anchor } from 'react-router-dom'
+import Team from '../MainTeam/MainTeam'
 
 export default function HomeAbout() {
   return (
@@ -31,27 +29,13 @@ export default function HomeAbout() {
 
         </div>
 
-        <div className='teamAdmin'>
+        <div className='separator'>
 
-          <div className='admin'>
-            <img src={Admin} alt="" />
-            <H4 className='adminTitle' text='Agustina Vicente' />
-            <P className='adminDesc' text='Contadora, recibida de la USAL, con experiencia en impuestos e industria fintech' />
-          </div>
-
-          <div className='admin'>
-            <img src={Admin} alt="" />
-            <H4 className='adminTitle' text='Sebastian Pereyra' />
-            <P className='adminDesc' text='Procurador y abogado, recibido de la UBA, con especialización en el area de Derecho Tributario.' />
-          </div>
-
-          <div className='admin'>
-            <img src={Admin} alt="" />
-            <H4 className='adminTitle' text='Nadia Pereyra' />
-            <P className='adminDesc' text='Abogada, recibida de la UBA, con especialización y experiencia en el area de Derecho Empresarial.' />
-          </div>
+        <Team />
 
         </div>
+
+        <div className='separator'>
 
         <div className='aboutContact'>
 
@@ -63,9 +47,7 @@ export default function HomeAbout() {
 
             <div className='aboutLeft'>
               <P text='Si buscas una consultoría jurídica que pueda brindarte soluciones legales y fiscales efectivas y personalizadas, no dudes en contactarnos. Nuestro equipo de abogados y contadores está listo para ayudarte a cumplir con tus objetivos empresariales y mantener tu negocio en el camino del éxito.' />
-              <Anchor to='/contact'>
-                  <Span text='Contactanos'/>
-              </Anchor>
+              <Anchor to='/contact'>Contactanos</Anchor>
             </div>
 
             <div className='aboutRight'>
@@ -73,6 +55,8 @@ export default function HomeAbout() {
             </div>
 
           </div>
+
+        </div>
 
         </div>
 
