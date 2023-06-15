@@ -40,3 +40,109 @@
     font-size: 23px;
     text-shadow: 1px 1px 5px #625555;
 }
+
+/* ---------------------- */
+
+@media (max-width: 1440px) {
+    .textPrices {
+        margin: 1rem;
+    }
+
+    .textPrices h2 {
+        font-size: 55px;
+    }
+
+    .textPrices p {
+        font-size: 35px;
+    }
+
+    .textPrices span {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .aboutContact {
+        width: 90%;
+    }
+
+    .about {
+        flex-wrap: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .textPrices {
+        margin: 1rem;
+    }
+
+    .textPrices h2 {
+        font-size: 55px;
+    }
+
+    .textPrices p {
+        font-size: 35px;
+    }
+
+    .textPrices span {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .aboutContact {
+        width: 90%;
+    }
+
+    .about {
+        flex-wrap: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .textPrices {
+        margin: 1rem;
+    }
+
+    .textPrices h2 {
+        font-size: 55px;
+    }
+
+    .textPrices p {
+        font-size: 35px;
+    }
+
+    .textPrices span {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .aboutContact {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .textPrices {
+        height: 100%;
+        margin: 1rem;
+    }
+
+    .textPrices h2 {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .textPrices p {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .textPrices span {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .aboutContact {
+        width: 90%;
+    }
+}

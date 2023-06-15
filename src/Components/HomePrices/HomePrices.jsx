@@ -17,6 +17,8 @@ export default function HomePrices() {
                 <Span text='Los honorarios de los abogados, procuradores y auxiliares de la justicia que por su actividad judicial o extrajudicial, administrativa en trámites de mediación actuaren como patrocinantes o como representantes, o como auxiliares de la justicia, cuando la competencia correspondiere a los tribunales con asiento en la Capital Federal y los Tribunales Federales, como así toda actividad profesional desplegada en la Ciudad de Buenos Aires, se regularán de acuerdo con esta ley. La presente ley es de orden Público.' />
             </div>
 
+            <div className='separator'></div>
+
             <div className='aboutContact'>
 
                 <div className='aboutTitle'>
