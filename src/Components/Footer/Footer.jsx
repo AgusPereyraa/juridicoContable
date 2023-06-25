@@ -20,6 +20,7 @@ export default function Footer() {
 
             <div className='footerLinks1'>
                 <H4 text='Contacto' />
+                
                 <div className='footerPhone'>
                     <img src={Phone} alt='logo-phone' />
                     <Anchor to={'tel:01133128390'}>011 - 2252 - 3564</Anchor>
