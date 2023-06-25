@@ -3,7 +3,7 @@ import './homeAbout.css'
 import H2 from '../H2/H2'
 import H3 from '../H3/H3'
 import P from '../P/P'
-import Logo1 from '../../Img/Logo1.png'
+import LogoTwo from '../../Img/Logo Two.png'
 import { Link as Anchor } from 'react-router-dom'
 import Team from '../MainTeam/MainTeam'
 
@@ -51,7 +51,7 @@ export default function HomeAbout() {
             </div>
 
             <div className='aboutRight'>
-              <img src={Logo1} alt="logoContact" />
+              <img src={LogoTwo} alt="logoContact" />
             </div>
 
           </div>

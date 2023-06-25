@@ -41,6 +41,12 @@
     text-shadow: 1px 1px 5px #625555;
 }
 
+.aboutRight img {
+    border: 2px solid #ab530180;
+    border-radius: 13px;
+    padding: .3rem;
+}
+
 /* ---------------------- */
 
 @media (max-width: 1440px) {

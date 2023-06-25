@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import './homeContact.css'
 import H2 from '../H2/H2'
 import P from '../P/P'
-import Logo2 from '../../Img/Logo2.png'
+import LogoOne from '../../Img/Logo One.png'
 
 export default function HomeContact() {
 
@@ -43,7 +43,7 @@ export default function HomeContact() {
         </div>
 
         <div className='allenar'>
-          <img src={Logo2} alt="" />
+          <img src={LogoOne} alt="" />
         </div>
 
       </div>
