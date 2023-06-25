@@ -34,10 +34,10 @@ export default function HomeContact() {
         <div className='form'>
 
           <form ref={form} onSubmit={sendEmail} className='input'>
-            <input type="text" name={"user_name"} className='inputForm' placeholder='Nombre' />
-            <input type="email" name={"user_email"} className='inputForm' placeholder='Email' />
-            <textarea name={"message"} className='inputFormArea' placeholder='Deje su mensaje.' />
-            <input type="submit" value="Enviar" className='buttonForm' />
+            <input type="text" name={"user_name"} className='inputForm' placeholder='Nombre' required/>
+            <input type="email" name={"user_email"} className='inputForm' placeholder='Email' required/>
+            <textarea name={"message"} className='inputFormArea' placeholder='Deje su mensaje.' required/>
+            <input type="submit" value="Enviar" className='buttonForm'/>
           </form>
 
         </div>

@@ -83,6 +83,15 @@
     text-shadow: 1px 1px 5px #625555;
 }
 
+.buttonForm:hover {
+    background-color: white;
+    color: #ab5301da;
+    font-weight: bold;
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+    border: none;
+}
+
 /* ------------------------- */
 
 @media (max-width: 1440px) {
