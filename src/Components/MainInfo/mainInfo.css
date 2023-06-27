@@ -1,5 +1,4 @@
 #main {
-    height: 100vh;
     background: url(../../Img/backgroundInfo.png);
     background-position: contain;
     background-repeat: no-repeat;
@@ -48,7 +47,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 1rem;
     gap: 1rem;
     text-shadow: 1px 1px 5px #625555;
 }
