@@ -29,13 +29,11 @@ export default function HomeAbout() {
 
         </div>
 
-        <div className='separator'>
+        <div className='separator'></div>
 
         <Team />
 
-        </div>
-
-        <div className='separator'>
+        <div className='separator'></div>
 
         <div className='aboutContact'>
 
@@ -55,8 +53,6 @@ export default function HomeAbout() {
             </div>
 
           </div>
-
-        </div>
 
         </div>
 

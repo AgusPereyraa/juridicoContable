@@ -1,11 +1,14 @@
 .homePrices {
     min-height: 100vh;
     background: url(../../Img/backgroundInfo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    border-top: 5px solid #ab530180;
+    padding-top: 5rem;
 }
 
 .textPrices {

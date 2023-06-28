@@ -7,7 +7,7 @@
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    border-top: 5px solid #ab530180;
+    padding-top: 1rem;
 }
 
 .bannerServices {

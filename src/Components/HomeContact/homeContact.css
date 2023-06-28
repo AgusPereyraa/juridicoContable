@@ -1,8 +1,7 @@
 .homeContact {
     background: url(../../Img/backgroundInfo.png);
-
     padding: 1rem;
-    border-top: 5px solid #ab530180;
+    padding-top: 5rem;
 }
 
 .textContact {
@@ -226,16 +225,17 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding-top: 5rem;
     }
 
     .textContact {
-        height: 60vh;
+        height: 70vh;
         width: 90%;
         padding: .5rem;
     }
 
     .textContact h2 {
-        font-size: 55px;
+        font-size: 45px;
         text-shadow: 1px 1px 5px #625555;
     }
 
@@ -250,7 +250,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 90vh;
+        height: 95vh;
         width: 90%;
         gap: 2rem;
     }
@@ -261,7 +261,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 28rem;
+        width: 100%;
     }
 
     .inputForm {

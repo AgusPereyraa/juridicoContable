@@ -245,7 +245,7 @@
 
 @media (max-width: 600px) {
     .mainInfo {
-        height: 95vh;
+        height: 100vh;
     }
 
     .desc {
@@ -257,9 +257,11 @@
     }
     
     .infoText h3 {
-        font-size: 23px;
+        font-size: 22px;
         width: 100%;
         padding: 5px;
+        margin-bottom: 1.5rem;
+        line-height: 35px;
     }
 
     .desc p {
