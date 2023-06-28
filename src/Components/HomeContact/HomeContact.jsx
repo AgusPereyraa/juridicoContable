@@ -6,6 +6,7 @@ import P from '../P/P'
 import LogoOne from '../../Img/Logo One.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import toast, { Toaster } from 'react-hot-toast';
 
 export default function HomeContact() {
 
@@ -29,6 +30,8 @@ export default function HomeContact() {
     e.target.reset()
   };
 
+  const notify = () => toast('Su mensaje a sido enviado');
+
   return (
     <div className='homeContact'>
 
@@ -45,7 +48,8 @@ export default function HomeContact() {
             <input type="text" name={"user_name"} className='inputForm' placeholder='Nombre' required/>
             <input type="email" name={"user_email"} className='inputForm' placeholder='Email' required/>
             <textarea name={"message"} className='inputFormArea' placeholder='Deje su mensaje.' required/>
-            <input type="submit" value="Enviar" className='buttonForm'/>
+            <input type="submit" value="Enviar" className='buttonForm' onClick={notify}/>
+            <Toaster />
           </form>
 
         </div>
