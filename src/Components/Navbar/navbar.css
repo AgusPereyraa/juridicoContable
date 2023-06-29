@@ -5,6 +5,8 @@ nav {
     position: fixed;
     z-index: 3;
     opacity: 23rem;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
 }
 
 .navbar {
