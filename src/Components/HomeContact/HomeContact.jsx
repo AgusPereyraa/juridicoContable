@@ -30,14 +30,14 @@ export default function HomeContact() {
     e.target.reset()
   };
 
-  const notify = () => toast('Su mensaje a sido enviado');
+  const notify = () => toast('Su mensaje ha sido enviado');
 
   return (
     <div className='homeContact'>
 
       <div className='textContact' data-aos='fade-down' data-aos-delay='200'>
         <H2 text='Contáctanos' />
-        <P text='No dudes en contactarnos. Somos el asesor que necesita tu PYME, creemos que juntos es mejor y que el trabajo en comunidad da sus frutos. La primera consulta es sin cargo. ' />
+        <P text='No dudes en contactarnos. Somos el asesor que necesita tu PYME, creemos que juntos es mejor y que el trabajo en comunidad da sus frutos.' />
       </div>
 
       <div className='formContact'>
@@ -47,6 +47,7 @@ export default function HomeContact() {
           <form ref={form} onSubmit={sendEmail} className='input'>
             <input type="text" name={"user_name"} className='inputForm' placeholder='Nombre' required/>
             <input type="email" name={"user_email"} className='inputForm' placeholder='Email' required/>
+            {/* <input type="text" name={"user_phone"} className='inputForm' placeholder='Telefono' required/> */} {/* Al agregarlo modificar css */}
             <textarea name={"message"} className='inputFormArea' placeholder='Deje su mensaje.' required/>
             <input type="submit" value="Enviar" className='buttonForm' onClick={notify}/>
             <Toaster />
