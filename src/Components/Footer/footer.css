@@ -424,7 +424,7 @@
     }
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     #Footer-contain {
         width: 100vw;
         display: flex;
@@ -522,4 +522,4 @@
         text-decoration: none;
         color: black;
     }
-}
+} */
