@@ -83,6 +83,8 @@
     transform: scaleX(1);
 }
 
+/* Agregar la redireccion de whatsapp que mando Ale */
+
 @media (max-width: 2560px) {
     #Footer-contain {
         width: 100%;
