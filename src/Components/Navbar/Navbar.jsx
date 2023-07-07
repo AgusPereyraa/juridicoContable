@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link as Anchor } from 'react-router-dom'
 import P from '../P/P'
 import Span from '../Span/Span'
+import WhatsApp from '../../Img/whatsapp.png'
 import './navbar.css'
 
 
@@ -54,6 +55,13 @@ const Navbar = () => {
           <Span />
           <Span />
           <Span />
+        </div>
+
+        <div className='whatsapp-nav'>
+          <a href="https://api.whatsapp.com/send?phone=+541122523564&text=Hola%20%C2%BFC%C3%B3mo%20est%C3%A1s?%20Estuve%20mirando%20tu%20Portfolio"
+            target="_blank" rel='noreferrer'>
+            <img src={WhatsApp} alt="WhatsApp" />
+          </a>
         </div>
 
         <div className='title-nav'>

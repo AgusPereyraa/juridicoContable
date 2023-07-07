@@ -47,7 +47,7 @@ export default function HomeContact() {
           <form ref={form} onSubmit={sendEmail} className='input'>
             <input type="text" name={"user_name"} className='inputForm' placeholder='Nombre' required/>
             <input type="email" name={"user_email"} className='inputForm' placeholder='Email' required/>
-            {/* <input type="text" name={"user_phone"} className='inputForm' placeholder='Telefono' required/> */} {/* Al agregarlo modificar css */}
+            <input type="text" name={"user_phone"} className='inputForm' placeholder='Telefono' required/> {/* Al agregarlo modificar css */}
             <textarea name={"message"} className='inputFormArea' placeholder='Deje su mensaje.' required/>
             <input type="submit" value="Enviar" className='buttonForm' onClick={notify}/>
             <Toaster />
