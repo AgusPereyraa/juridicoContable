@@ -58,9 +58,9 @@ export default function HomeAbout() {
               <Anchor to='/contact'>Contactanos</Anchor>
             </div>
 
-            <div className='aboutRight' data-aos='fade-down' data-aos-delay='600'>
+            {/* <div className='aboutRight' data-aos='fade-down' data-aos-delay='600'>
               <img src={LogoTwo} alt="logoContact" />
-            </div>
+            </div> */}
 
           </div>
 
