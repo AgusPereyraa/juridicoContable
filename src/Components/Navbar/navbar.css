@@ -17,6 +17,13 @@ nav {
     box-shadow: 6px 7px 5px rgba(0, 0, 0, 0.377);
 }
 
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
 .navbar .scrolled {
     background-color: white !important;
 }
