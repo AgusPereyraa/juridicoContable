@@ -59,7 +59,7 @@ const Navbar = () => {
 
         <div className='navbar-right'>
           <div className='whatsapp-nav'>
-            <a href="https://api.whatsapp.com/send?phone=1122523564&text=Hola!%20Quisiera%20que%20me%20contacten%20por%20una%20consulta.%20Gracias."
+            <a href="https://api.whatsapp.com/send?phone=01122523564&text=Hola!%20Quisiera%20que%20me%20contacten%20por%20una%20consulta.%20Gracias."
               target="_blank" rel='noreferrer'>
               <img src={WhatsApp} alt="WhatsApp" />
             </a>
