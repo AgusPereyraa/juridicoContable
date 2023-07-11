@@ -43,7 +43,7 @@
 
 .allenar img {
     height: 280px;
-    border: 2px solid #ab530180;
+    border: 2px solid #0436ea7e;  /*  #ab530180 */
     padding: .3rem;
     border-radius: 13px;
 }
@@ -58,7 +58,7 @@
 .inputForm {
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid #ab5301da;
+    border-bottom: 2px solid #0436ea7e;  /*  #ab530180 */
     height: 2rem;
     font-size: 20px;
 }
@@ -66,7 +66,7 @@
 .inputFormArea {
     background: transparent;
     border: none;
-    border-bottom: 2px solid #ab5301da;
+    border-bottom: 2px solid #0436ea7e;  /*  #ab530180 */
     font-size: 20px;
     resize: none;
     height: 5rem;
@@ -77,9 +77,9 @@
     width: 10rem;
     height: 2rem;
     font-size: 20px;
-    background-color: #ab5301da;
+    background-color: #0436ea7e;  /*  #ab530180 */
     color: #ffffff;
-    border: 1px solid #ab5301da;
+    border: 1px solid #0436ea7e;  /*  #ab530180 */
     border-radius: 3px;
     box-shadow: 2px 2px 10px #625555;
     text-shadow: 1px 1px 5px #625555;
@@ -87,7 +87,7 @@
 
 .buttonForm:hover {
     background-color: white;
-    color: #ab5301da;
+    color: #0436ea7e;  /*  #ab530180 */
     font-weight: bold;
     transition: all ease-in-out .2s;
     cursor: pointer;

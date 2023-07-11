@@ -45,9 +45,13 @@
 }
 
 .aboutRight img {
-    border: 2px solid #ab530180;
+    border: 2px solid #0436ea7e;  /*  #ab530180 */
     border-radius: 13px;
     padding: .3rem;
+}
+
+.homePrices .separator {
+    border-top: 5px solid #0436ea7e;  /*  #ab530180 */
 }
 
 /* ---------------------- */

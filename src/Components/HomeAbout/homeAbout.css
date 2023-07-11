@@ -140,8 +140,8 @@
 .aboutLeft a {
     text-decoration: none;
     font-size: 30px;
-    border: 1px solid #ab5301da;
-    background-color: #ab5301da;
+    border: 1px solid #0436ea7e;  /*  #ab530180 */
+    background-color: #0436ea7e;  /*  #ab530180 */
     border-radius: 3px;
     color: white;
     box-shadow: 1px 1px 10px #625555;
@@ -162,11 +162,15 @@
 .aboutLeft a:hover {
     border: 1px solid white;
     background-color: white;
-    color: #ab5301da;
+    color: #0436ea7e;  /*  #ab530180 */
     transition: all ease .3s;
     box-shadow: 1px 1px 10px #625555;
     font-weight: bolder;
     cursor: pointer;
+}
+
+.homeAbout .separator {
+    border-top: 5px solid #0436ea7e;  /*  #ab530180 */
 }
 
 /* ------------------------------- */
