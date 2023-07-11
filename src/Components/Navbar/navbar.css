@@ -303,6 +303,7 @@ nav {
         transform: rotate(45deg) translate(0px, -3px);
         margin-top: -10px;
         margin-left: 60%;
+        background: #0436ead2;
     }
 
     .nav_toggle.open>span:nth-child(3) {
@@ -354,6 +355,7 @@ nav {
         transform: rotate(45deg) translate(0px, -4px);
         margin-top: -10px;
         margin-left: 70%;
+        background: #0436ead2;
     }
 
     .nav_toggle.open>span:nth-child(3) {
