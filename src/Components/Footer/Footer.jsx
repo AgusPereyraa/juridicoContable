@@ -23,7 +23,7 @@ export default function Footer() {
                 
                 <div className='footerPhone'>
                     <img src={Phone} alt='logo-phone' />
-                    <Anchor to={'tel:01133128390'}>011 - 2252 - 3564</Anchor>
+                    <Anchor to={'tel:01122523564'}>011 - 2252 - 3564</Anchor>
                 </div>
 
                 <div className='footerEmail'>
