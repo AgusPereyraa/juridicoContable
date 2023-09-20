@@ -7,6 +7,7 @@ import Services from './Services/Services'
 import About from './About/About'
 import Prices from './Prices/Prices'
 import Contact from './Contact/Contact'
+import Privacy from './Privacy/Privacy'
 
 export const router = createBrowserRouter([
     {
@@ -23,7 +24,8 @@ export const router = createBrowserRouter([
             { path: '/services', element: <Services />},
             { path: '/about', element: <About />},
             { path: '/prices', element: <Prices />},
-            { path: '/contact', element: <Contact />}
+            { path: '/contact', element: <Contact />},
+            { path: '/privacy', element: <Privacy />}
         ]
     }
 ])

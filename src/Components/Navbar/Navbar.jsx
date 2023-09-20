@@ -49,6 +49,7 @@ const Navbar = () => {
           <Anchor to='/about'><P text='Nosotros' /></Anchor>
           <Anchor to='/prices'><P text='Honorarios' /></Anchor>
           <Anchor to='/contact'><P text='Contacto' /></Anchor>
+          <Anchor to='/privacy'><P text='Politica de Privacidad'/></Anchor>
         </div>
 
         <div className={`nav_toggle  ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
